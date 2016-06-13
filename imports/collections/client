@@ -1,0 +1,21 @@
+client
+  imports
+    components
+server
+  imports
+api
+  imports
+    collections
+
+// In components
+import { Something } from '../../api/imports/collections';
+
+imports
+  client
+    components
+  server
+  api
+    collections
+
+// In components
+import { Something } from '../api/collections';
